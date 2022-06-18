@@ -1,0 +1,58 @@
+.footer__container {
+  background: #2F324B;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.copyright {
+  width: 127px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.design {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__tel {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 3px;
+}
+
+.footer__call-me {
+  display: inline;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.call-me__span {
+  border-bottom: 1px solid;
+}

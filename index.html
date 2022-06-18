@@ -17,27 +17,28 @@
 
 
 <body>
-<header class="header">
-  <div class="container header__container">
-    <img class="header__logo" src="img/logo.svg" alt="Логотип">
 
-    <div class="header__contact">
-      <a class="header__tel" href="tel:89625561234" target="_blank">+7(962)556-1234</a>
-      <a class="header__call-me" href="#contact-screen">Перезвоните мне</a>
-    </div>
-
-  </div>
-</header>
 
 <main class="main">
 
   <section class="content">
     <div class="container  content__container">
+
+      <div class="content__bar bar">
+        <img class="bar__logo" src="img/logo.svg" alt="Логотип">
+
+        <div class="bar__contact">
+          <a class="bar__tel" href="tel:89625561234" target="_blank">+7(962)556-1234</a>
+          <a class="bar__call-me call-me" href="#contact-screen"><span class="call-me__span">Перезвоните мне</span></a>
+        </div>
+      </div>
+
       <h1 class="content__caption">
-        Заголовок c уникальным торговым предложение по системе 4U
+        Заголовок c уникальным торговым предложением по системе 4U
       </h1>
       <p class="content__text">
-        Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
+        Описания предложения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+        несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
       </p>
       <a class="content__btn" href="#">Подробнее</a>
     </div>
@@ -55,10 +56,10 @@
         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
       </p>
       <ul class="advantages__list">
-        <li class="advantages__item">1</li>
-        <li class="advantages__item">2</li>
-        <li class="advantages__item">3</li>
-        <li class="advantages__item">4</li>
+        <li class="advantages__item advantages__item-one">Первое целевое преимущество</li>
+        <li class="advantages__item advantages__item-two">Второе целевое преимущество</li>
+        <li class="advantages__item advantages__item-three">Третье целевое преимущество</li>
+        <li class="advantages__item advantages__item-four">Четвертое целевое преимущество</li>
       </ul>
     </div>
   </section>
@@ -75,24 +76,24 @@
          </legend>
 
          <label class="form__label">
-           Ваше имя
-           <input class="form__input" type="text" name="name">
+           <span class="form__span visually-hidden">Ваше имя</span>
+           <input class="form__input" type="text" name="name" placeholder="Ваше имя">
          </label>
          <label class="form__label">
-           Телефон
-           <input class="form__input" type="tel" name="tel" >
+           <span class="form__span visually-hidden">Телефон</span>
+           <input class="form__input" type="tel" name="tel" placeholder="Номер телефона">
          </label>
          <label class="form__label">
-           E-mail
-           <input class="form__input" type="email" name="email">
+           <span class="form__span visually-hidden">E-mail</span>
+           <input class="form__input" type="email" name="email" placeholder="Ваша почта ">
          </label>
        </fieldset>
        <button class="form__btn" type="submit">позвоните мне</button>
      </form>
 
-      <p>
+      <p class="contact-screen__agreement agreement">
         Я даю своё
-        <a class="" href="#">согласие</a>
+        <a class="agreement__link" href="#">согласие</a>
         на обработку моих персональных данных.
       </p>
     </div>
@@ -103,17 +104,19 @@
 <footer class="footer">
   <div class="container footer__container">
 
-    <img class="footer__logo" src="img/logo.svg" alt="логотип">
+    <div class="footer__box">
+      <img class="footer__logo" src="img/logo.svg" alt="логотип">
 
-    <p class="copyright">&#169;2022 XXXcompany.Все права защищены.</p>
+      <p class="copyright">&#169;2022 XXXcompany. Все права защищены.</p>
+    </div>
 
-      <a class="design" href="#"  target="_blank">
-          Сделано в Ивановым Иваном
-      </a>
+    <a class="design" href="#"  target="_blank">
+      Сделано в Ивановым Иваном
+    </a>
 
     <div class="footer__contact">
-      <a class="header__tel" href="tel:89625561234" target="_blank">+7(962)556-1234</a>
-      <a class="header__call-me" href="#contact-screen">Перезвоните мне</a>
+      <a class="footer__tel" href="tel:89625561234" target="_blank">+7(962)556-1234</a>
+      <a class="footer__call-me" href="#contact-screen"><span class="call-me__span">Перезвоните мне</span></a>
     </div>
 
   </div>
