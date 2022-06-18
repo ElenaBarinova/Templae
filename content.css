@@ -16,7 +16,10 @@
   align-items: center;
   margin-bottom: 120px;
 }
-
+.bar__logo {
+  width: 68px;
+  height: 68px;
+}
 .bar__contact {
   display: flex;
   flex-direction: column;
@@ -49,6 +52,7 @@
   line-height: 61px;
   text-align: center;
   margin-bottom: 35px;
+  color: rgba(255, 255, 255, 0.86);
 }
 
 .content__text {
@@ -56,6 +60,7 @@
   line-height: 31px;
   text-align: center;
   margin-bottom: 90px;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .content__btn {
@@ -69,4 +74,106 @@
   background: var(--btm-color,#15A9CB);
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
+}
+
+
+@media (max-width: 1366px) {
+  .content__container {
+    padding-top: 26px;
+  }
+
+  .bar {
+    margin-bottom: 70px;
+  }
+
+  .content__caption {
+    margin-bottom: 27px;
+    padding: 0 92px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .content__text {
+    margin-bottom: 27px;
+    padding: 0 105px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .content__btn {
+    margin-bottom: 70px;
+  }
+
+  .bar__logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .bar__tel {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .bar__call-me {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  }
+
+@media (max-width: 768px) {
+  .content__text {
+  padding: 0 30px;
+  }
+  .content__caption {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bar__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bar__tel {
+    display: none;
+  }
+
+  .bar__call-me {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(img/phone.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .call-me__span {
+    display: none;
+  }
+
+  .bar {
+    margin-bottom: 65px;
+  }
+
+  .content__caption {
+    padding: 0;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+
+  .content__text {
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 54px;
+
+  }
+
+  .content__btn {
+    padding: 9px 29px;
+    font-size: 16px;
+    line-height: 19px;
+  }
 }

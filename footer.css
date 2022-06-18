@@ -30,7 +30,6 @@
   color: #FFFFFF;
 }
 
-
 .footer__contact {
   display: flex;
   flex-direction: column;
@@ -56,3 +55,4 @@
 .call-me__span {
   border-bottom: 1px solid;
 }
+
