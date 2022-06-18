@@ -43,15 +43,13 @@
   border: 1px solid #FFFFFF;
   border-radius: 50px;
   background:none;
-  font-weight: 400;
-  font-size: 22px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .form__btn {
   padding: 11px 38px;
-  background: #15A9CB;
+  background: var(--btm-color,#15A9CB);
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border: none;
   border-radius: 50px;
@@ -64,7 +62,6 @@
 }
 
 .agreement {
-  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
