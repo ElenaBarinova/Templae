@@ -12,8 +12,11 @@
 .contact-screen__caption {
   font-weight: 700;
   font-size: 35px;
-  line-height: 41px;
+  line-height: 41.02px;
   text-align: center;
+  padding-left: 423px;
+  padding-right: 448px;
+
   color: #FFFFFF;
   margin-bottom: 17px;
 }
@@ -38,9 +41,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 21px;
+  gap: 17px;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 48px
 }
 .form__label {
   width: 423px;
@@ -59,7 +62,7 @@
 
 
 .form__btn {
-  padding: 11px 38px;
+  padding: 12px 38px 11px;
   background: var(--btm-color,#15A9CB);
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border: none;
@@ -69,7 +72,7 @@
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .agreement {

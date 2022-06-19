@@ -27,7 +27,7 @@
 }
 
 .bar__tel {
-  font-size: 24px;
+  font-size: 23.85px;
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
@@ -37,7 +37,7 @@
 .bar__call-me {
   display: inline;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 19.75px;
   text-align: center;
   color: #FFFFFF;
  }
@@ -51,7 +51,7 @@
   font-size: 52px;
   line-height: 61px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   color: rgba(255, 255, 255, 0.86);
 }
 
