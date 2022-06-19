@@ -1,10 +1,10 @@
-.root {
-  --btm-color: #15A9CB
+:root {
+  --btm-color: #15A9CB;
+
 }
 
 .advantages {
+  --color-benefits:#23C7EC;
   --cart-count: 4;
   --gap: 50px;
-  --color-benefits:#23C7EC
-
 }

@@ -42,7 +42,7 @@
   color: #FFFFFF;
  }
 
-.call-me__span {
+.bar__span {
     border-bottom: 1px solid;
 }
 
@@ -116,6 +116,10 @@
   .bar__call-me {
     font-size: 13px;
     line-height: 15px;
+  }
+
+  .bar__span {
+    border-color: rgba(255, 255, 255, 0.5);
   }
 
   }
