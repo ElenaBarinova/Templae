@@ -1,10 +1,15 @@
 :root {
   --btm-color: #15A9CB;
-
 }
 
 .advantages {
   --color-benefits:#23C7EC;
   --cart-count: 4;
   --gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    --cart-count:2;
+  }
 }
