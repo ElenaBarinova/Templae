@@ -34,6 +34,11 @@
   margin-bottom: 3px;
 }
 
+.bar__tel:hover ,.bar__tel:focus {
+  color: #23C7EC;
+}
+
+
 .bar__call-me {
   display: inline;
   font-size: 16px;
@@ -41,6 +46,10 @@
   text-align: center;
   color: #FFFFFF;
  }
+
+.bar__call-me:hover , .bar__call-me:focus {
+  color: #23C7EC;
+}
 
 .bar__span {
     border-bottom: 1px solid;
@@ -74,6 +83,12 @@
   background: var(--btm-color,#15A9CB);
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
+}
+
+.content__btn:hover , .content__btn:focus {
+  background: #FFFFFF;
+  color:var(--btm-color,#15A9CB);
+
 }
 
 

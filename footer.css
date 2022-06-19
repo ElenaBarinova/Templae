@@ -30,6 +30,10 @@
   color: #FFFFFF;
 }
 
+.design:hover , .design:focus {
+  color: #23C7EC;
+}
+
 .footer__contact {
   display: flex;
   flex-direction: column;
@@ -44,12 +48,20 @@
   margin-bottom: 3px;
 }
 
+.footer__tel:hover , .footer__tel:focus {
+  color: #23C7EC;
+}
+
 .footer__call-me {
   display: inline;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.footer__call-me:hover , .footer__call-me:focus {
+  color: #23C7EC;
 }
 
 .call-me__span {
@@ -74,6 +86,7 @@
     font-size: 21px;
     line-height: 25px;
   }
+
   .footer__call-me {
     font-size: 13px;
     line-height: 15px;

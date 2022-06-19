@@ -14,12 +14,8 @@
   font-size: 35px;
   line-height: 41.02px;
   text-align: center;
-  /*padding-left: 423px;
-  padding-right: 448px;*/
   margin: 0 auto 17px;
-
   color: #FFFFFF;
-
 }
 
 .form {
@@ -46,6 +42,7 @@
   align-items: center;
   margin-bottom: 48px
 }
+
 .form__label {
   width: 423px;
 }
@@ -61,7 +58,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 .form__btn {
   padding: 12px 38px 11px;
   background: var(--btm-color,#15A9CB);
@@ -76,6 +72,12 @@
   margin-bottom: 52px;
 }
 
+.form__btn:hover , .form__btn:focus {
+  background: #FFFFFF;
+  color:var(--btm-color,#15A9CB);
+
+}
+
 .agreement {
   font-size: 20px;
   line-height: 23px;
@@ -85,6 +87,10 @@
 
 .agreement__link {
   color: #4A76A8;
+}
+
+.agreement__link:hover, .agreement__link:focus {
+  color: #23C7EC;
 }
 
  @media (max-width: 1366px) {
